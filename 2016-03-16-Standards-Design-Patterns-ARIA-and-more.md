@@ -125,96 +125,15 @@ Let's go to ... this one is okay. So this is pickadate, so I found a different p
 
 **[Seth]:** So, I'm ... if you guys want to see some really good accessibility, like, I just started really nit-picking this site, it's very good, and it's getting even better, and I didn't realize there was a standard or a date timeline for all the airlines. And now it makes perfect sense to me. Why this is so good. Because I would have expected this to be bad. But, so date picker. So you get this cool thing, it's awesome, it shows me two months at a time and I can go forward, I can go back with a mouse and it shows me really, visually how awesome this this is. If I use it with a mouse, I mean a keyboard ... I'll get into the bottom section of this in a little bit. But, I can actually, if I can remember, I don't remember the controls. So there, I'm going. So I can go forward, I can go down, I can actually go month to month if I click there, right. All of these kind of things. This is impressive. Ok, and there are actually, if we reviewed those design patterns, according to ARIA all of those, or most of them are pretty available. The other thing that I will highlight at the bottom, is really impressive. So let me explain this quickly, and then I'll get into it in more detail.
 
-Notice how when I use my mouse, you don't see that bottom. But when I use my keyboard, I do.
+Notice how when I use my mouse, you don't see that bottom. But when I use my keyboard, I do. That's awesome and I'll explain why in a little bit.
 
-452
-00:39:00,200 --> 00:39:02,860
-That's awesome and I'll explain why in a little bit.
-
-453
-00:39:03,000 --> 00:39:05,080
 Ok, so let me go back to this guy.
 
-454
-00:39:36,980 --> 00:39:40,620
 I don't have much more. I do not have much more.
 
-455
-00:39:46,220 --> 00:39:50,420
-Ok, so, we couldn't find the specs, so now let's talk about ARIA.
+Ok, so, we couldn't find the specs, so now let's talk about ARIA. Right, so this is like the technical thing that some of you may or may not be aware of. ARIA is the Accessible Rich Internet Applications suite, defines a way to make web content and web applications more accessible to people with disabilities. It especially helps with the dynamic content and advance users, interface controls, development with AJAX, HTML, JavaScript and related technologies. So this is basically like a secondary language to what we do, that helps code talk to assistive technologies, and assistive technologies to talk to code. So all of those design patterns basically got augmented and got enhanced with ARIA. So, understanding some basics, this is a little more technical, so let me know if you have any questions.
 
-456
-00:39:50,420 --> 00:39:56,720
-Right, so this is like the technical thing that some of you may or may not be aware of.
-
-457
-00:39:56,960 --> 00:40:02,700
-ARIA is the Accessible Rich Internet Applications suite, defines a way to make web content
-
-458
-00:40:02,700 --> 00:40:08,440
-and web applications more accessible to people with disabilities. It especially helps with the dynamic content
-
-459
-00:40:08,440 --> 00:40:15,100
-and advance users, interface controls, development with AJAX, HTML, JavaScript and related technologies.
-
-460
-00:40:15,100 --> 00:40:19,840
-So this is basically like a secondary language
-to what we do, that helps
-
-461
-00:40:21,140 --> 00:40:25,840
-code talk to assistive technologies, 
-and assistive technologies to talk to code.
-
-462
-00:40:26,200 --> 00:40:33,120
-So all of those design patterns basically got augmented and got enhanced with ARIA.
-
-463
-00:40:33,780 --> 00:40:40,260
-So, understanding some basics, this is a little more technical, so let me know if you have any questions.
-
-464
-00:40:40,260 --> 00:40:43,280
-Sight and mobility-impaired users must be able to
-
-465
-00:40:43,920 --> 00:40:47,540
-quickly access a list of landmarks
-for a web page that they use.
-
-466
-00:40:47,540 --> 00:40:53,060
-So basically think of it like a table of contents, so we want to define using landmarks.
-
-467
-00:40:54,020 --> 00:41:00,580
-Code, on the page, that tells a user with various disabilities that there's a navigation,
-
-468
-00:41:01,120 --> 00:41:07,900
-there's a side navigation, there's a search, there's content, you want to be explicit so they can, you know,
-
-469
-00:41:07,900 --> 00:41:12,140
-go to those areas with ease. Remember those examples with tabbing tabbing tabbing tabbing,
-
-470
-00:41:12,140 --> 00:41:17,320
-and trying to get to something? This prevents that because they can use assistive technology to
-
-471
-00:41:17,320 --> 00:41:21,200
-access shortcuts to skip the navigation,
-we've all heard that, right?
-
-472
-00:41:21,560 --> 00:41:24,940
-Skip to navigation when you first tab?
-This eliminates that.
+Sight and mobility-impaired users must be able to quickly access a list of landmarks for a web page that they use. So basically think of it like a table of contents, so we want to define using landmarks. Code, on the page, that tells a user with various disabilities that there's a navigation, there's a side navigation, there's a search, there's content, you want to be explicit so they can, you know, go to those areas with ease. Remember those examples with tabbing tabbing tabbing tabbing, and trying to get to something? This prevents that because they can use assistive technology to access shortcuts to skip the navigation, we've all heard that, right? Skip to navigation when you first tab? This eliminates that.
 
 473
 00:41:25,420 --> 00:41:31,760
